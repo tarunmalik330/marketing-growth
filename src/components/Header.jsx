@@ -11,9 +11,9 @@ import GreenLine1 from "../assets/images/png/GreenLine1.png";
 const Header = () => {
   const [show, setShow] = useState(true);
   if (show === false) {
-    document.body.classList.add("overflow_hidden");
+    document.body.classList.add("overflow-hidden");
   } else {
-    document.body.classList.remove("overflow_hidden");
+    document.body.classList.remove("overflow-hidden");
   }
   return (
     <div className="Hero_Img w-100 position-relative">

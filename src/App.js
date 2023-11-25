@@ -59,16 +59,18 @@ function App() {
       ) : (
         <BrowserRouter>
           <>
-            <Header />
-            <Features />
-            <SatisfiedClient />
-            <DigitalMarketing />
-            <StartEarning />
-            <GrowthPartner />
-            <ActualResults />
-            <LearnFromUs />
-            <Goals />
-            <Footer />
+            <div className='overflow-hidden'>
+              <Header />
+              <Features />
+              <SatisfiedClient />
+              <DigitalMarketing />
+              <StartEarning />
+              <GrowthPartner />
+              <ActualResults />
+              <LearnFromUs />
+              <Goals />
+              <Footer />
+            </div>
             <div>
               <img onClick={() => top()} src={BackToTop} alt='BackToTop' className={backToTop ? "back_to_top" : "d-none"} />
             </div>

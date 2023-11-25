@@ -261,9 +261,9 @@ html {
 .dropdown-box a {
   width: 108px;
   height: 45px;
-  border-radius: 18px;
+  color: #000 !important;
   border-bottom: 1px solid #E8E8E8;
-  background: rgba(196, 196, 196, 0.00);
+  background: white;
 }
 
 .dropdown-box a:hover {
@@ -715,6 +715,10 @@ input::placeholder {
   object-fit: cover;
 }
 
+.bottom_2 {
+  bottom: -3% !important;
+}
+
 .mw-640 {
   max-width: 640px;
 }
@@ -743,6 +747,29 @@ input::placeholder {
 .slick-dots li.slick-active button:before {
   background-color: white !important;
 }
+
+.slick-slide {
+  opacity: 0.5;
+  outline: none !important;
+}
+
+.slick-slide.slick-current {
+  opacity: 1;
+}
+
+.max_w_640 {
+  max-width: 640px;
+}
+
+/* .slick-slide img {
+  display: block;
+  padding: 100px;
+}  */
+
+/* .slider_img {
+  bottom: 18%;
+  right: 13%;
+} */
 
 /* --------------------------------Learn From Us------------------------------ */
 .marketing_card {
@@ -1093,10 +1120,10 @@ input::placeholder {
     --fs-8md: 18px;
     --fs-4lg: 24px;
     --fs_lg: 30px;
-    --fs-xl: 40px;
+    --fs-xl: 31px !important;
     --fs-xxl: 35px !important;
-    --fs-xxxl: 50px !important;
-    --fs-4xl: 80px !important;
+    --fs-xxxl: 42px !important;
+    --fs-4xl: 70px !important;
   }
 }
 

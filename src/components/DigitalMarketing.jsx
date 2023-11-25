@@ -6,7 +6,6 @@ import { Stair } from "./IconImg";
 import { Card3 } from "./IconImg";
 import { Card4 } from "./IconImg";
 import Greenline from "../assets/images/png/digital-greenline.png";
-import RedCrossLine from "../assets/images/png/RedCross.png";
 
 function DigitalMarketing() {
   return (
@@ -81,7 +80,10 @@ function DigitalMarketing() {
             lg={6}
             className="col-12 d-flex align-items-center justify-content-lg-start justify-content-center pe-lg-4 pt-5 pt-lg-0"
           >
-            <div className="digital-card" data-aos="zoom-in-left">
+            <div
+              className="digital-card h-100 d-flex flex-column justify-content-between"
+              data-aos="zoom-in-left"
+            >
               <div className="d-sm-flex gap-3 digitalcard">
                 <div className="mb-3">
                   <Stair />

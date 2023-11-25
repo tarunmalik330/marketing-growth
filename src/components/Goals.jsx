@@ -6,7 +6,7 @@ const Goals = () => {
   return (
     <div className="bg_goals">
       <Container>
-        <div className="d-flex align-items-center justify-content-center gap-5 pt-5 mt-5 pb-5 flex-lg-row flex-column">
+        <div className="d-flex align-items-center justify-content-center gap-lg-5 pt-5 mt-5 pb-5 flex-lg-row flex-column">
           <p
             className=" ff-mainlight fw-light text-white fs_xl text-nowrap"
             data-aos="zoom-out-right"

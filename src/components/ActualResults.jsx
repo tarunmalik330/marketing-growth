@@ -4,32 +4,64 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Blueshirtman from "../assets/images/png/blue-shirt-man.png";
+import MichaelETestomnial from "../assets/images/png/MichaelETestomnial.png";
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from "./IconImg";
+import GreenLine1 from "../assets/images/png/GreenLine1.png";
 
 const Results = () => {
   const settings1 = {
     centerMode: true,
-    className: "center",
-    centerPadding: "60px",
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-  };
-  const slider1 = React.useRef(null);
-  const settings = {
+    centePadding: "60px",
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 1.67,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 990,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 770,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
+  const slider1 = React.useRef(null);
   return (
     <div className="bg-results position-relative pb-5 pt-5 mt_84">
-      <Container>
+      <img
+        src={GreenLine1}
+        alt="GreenLine1"
+        className="position-absolute start-0 bottom_2 w-100"
+      />
+      <Container fluid className="ps-lg-0 pe-lg-0">
         <h3
           className="mb-0 ff-mainlightt fw-light fs_lg text-white text-center"
           data-aos="fade-up"
@@ -51,273 +83,151 @@ const Results = () => {
         >
           Businesses trust Venveo to power grow.
         </p>
-        <Slider {...settings}>
+        <Slider ref={slider1} {...settings1}>
           <div>
-            <Slider ref={slider1} {...settings1}>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-            </Slider>
-            <div className="d-flex align-items-center justify-content-center flex-column pt-3">
-              <p
-                className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                “They are really aligned with how we are building the business
-                from a strategic standpoint and from branding, messaging and
-                cultural standpoint.”
-              </p>
-              <p
-                className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Jon Vaughan,
-                <br />
-                REGIONAL VP-SE AT US LBM
-              </p>
+            <div className="d-flex align-items-center justify-content-center flex-column">
               <div
-                className="pt-3 pb-4"
+                className="position-relative"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
               >
-                <Hpsvg />
+                <img
+                  src={MichaelETestomnial}
+                  alt="MichaelETestomnial"
+                  className="w-100 max_w_640"
+                />
+                <div
+                  className="position-absolute bottom-0 end-0 p-3"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Playbtn />
+                </div>
+              </div>
+              <div className="d-flex align-items-center justify-content-center flex-column pt-3">
+                <p
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  “They are really aligned with how we are building the business
+                  from a strategic standpoint and from branding, messaging and
+                  cultural standpoint.”
+                </p>
+                <p
+                  className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  Jon Vaughan,
+                  <br />
+                  REGIONAL VP-SE AT US LBM
+                </p>
+                <div
+                  className="pt-3 pb-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Hpsvg />
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <Slider ref={slider1} {...settings1}>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-            </Slider>
-            <div className="d-flex align-items-center justify-content-center flex-column pt-3">
-              <p
-                className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                “They are really aligned with how we are building the business
-                from a strategic standpoint and from branding, messaging and
-                cultural standpoint.”
-              </p>
-              <p
-                className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Jon Vaughan,
-                <br />
-                REGIONAL VP-SE AT US LBM
-              </p>
+            <div className="d-flex align-items-center justify-content-center flex-column">
               <div
-                className="pt-3 pb-4"
+                className="position-relative"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
               >
-                <Hpsvg />
+                <img
+                  src={Blueshirtman}
+                  alt="MichaelETestomnial"
+                  className="w-100 max_w_640"
+                />
+                <div
+                  className="position-absolute bottom-0 end-0 p-3"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Playbtn />
+                </div>
+              </div>
+              <div className="d-flex align-items-center justify-content-center flex-column pt-3">
+                <p
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  “They are really aligned with how we are building the business
+                  from a strategic standpoint and from branding, messaging and
+                  cultural standpoint.”
+                </p>
+                <p
+                  className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  Jon Vaughan,
+                  <br />
+                  REGIONAL VP-SE AT US LBM
+                </p>
+                <div
+                  className="pt-3 pb-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Hpsvg />
+                </div>
               </div>
             </div>
           </div>
           <div>
-            <Slider ref={slider1} {...settings1}>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-center flex-column">
-                <div
-                  className="position-relative"
-                  data-aos="fade-up"
-                  data-aos-anchor-placement="center-bottom"
-                >
-                  <img
-                    src={Blueshirtman}
-                    alt="Blueshirtman"
-                    className="w-100"
-                  />
-                  <div
-                    className="position-absolute bottom-0 end-0 p-3"
-                    data-aos="fade-up"
-                    data-aos-anchor-placement="center-bottom"
-                  >
-                    <Playbtn />
-                  </div>
-                </div>
-              </div>
-            </Slider>
-            <div className="d-flex align-items-center justify-content-center flex-column pt-3">
-              <p
-                className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+            <div className="d-flex align-items-center justify-content-center flex-column">
+              <div
+                className="position-relative"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
               >
-                “They are really aligned with how we are building the business
-                from a strategic standpoint and from branding, messaging and
-                cultural standpoint.”
-              </p>
-              <p
-                className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
-                data-aos="fade-up"
-                data-aos-anchor-placement="center-bottom"
-              >
-                Jon Vaughan,
-                <br />
-                REGIONAL VP-SE AT US LBM
-              </p>
-              <div className="pt-3 pb-4">
-                <Hpsvg />
+                <img
+                  src={MichaelETestomnial}
+                  alt="MichaelETestomnial"
+                  className="w-100 max_w_640"
+                />
+                <div
+                  className="position-absolute bottom-0 end-0 p-3"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Playbtn />
+                </div>
+              </div>
+              <div className="d-flex align-items-center justify-content-center flex-column pt-3">
+                <p
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  “They are really aligned with how we are building the business
+                  from a strategic standpoint and from branding, messaging and
+                  cultural standpoint.”
+                </p>
+                <p
+                  className="mb-0 text-center text-white ff-mainnormal fw-normal fs_5md pt-5 mt-2"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  Jon Vaughan,
+                  <br />
+                  REGIONAL VP-SE AT US LBM
+                </p>
+                <div
+                  className="pt-3 pb-4"
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="center-bottom"
+                >
+                  <Hpsvg />
+                </div>
               </div>
             </div>
           </div>

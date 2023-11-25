@@ -485,20 +485,20 @@ export const Loader = () => {
           fy=".3125"
           gradientTransform="scale(1.5)"
         >
-          <stop offset="0" stop-color="#fff"></stop>
-          <stop offset=".3" stop-color="#fff" stop-opacity=".9"></stop>
-          <stop offset=".6" stop-color="#fff" stop-opacity=".6"></stop>
-          <stop offset=".8" stop-color="#fff" stop-opacity=".3"></stop>
-          <stop offset="1" stop-color="#fff" stop-opacity="0"></stop>
+          <stop offset="0" stopColor="#fff"></stop>
+          <stop offset=".3" stopColor="#fff" stopOpacity=".9"></stop>
+          <stop offset=".6" stopColor="#fff" stopOpacity=".6"></stop>
+          <stop offset=".8" stopColor="#fff" stopOpacity=".3"></stop>
+          <stop offset="1" stopColor="#fff" stopOpacity="0"></stop>
         </radialGradient>
         <circle
           transform-origin="center"
           fill="none"
           stroke="url(#a6)"
-          stroke-width="15"
-          stroke-linecap="round"
-          stroke-dasharray="200 1000"
-          stroke-dashoffset="0"
+          strokeWidth="15"
+          strokeLinecap="round"
+          strokeDasharray="200 1000"
+          strokeDashoffset="0"
           cx="100"
           cy="100"
           r="70"
@@ -517,10 +517,10 @@ export const Loader = () => {
         <circle
           transform-origin="center"
           fill="none"
-          opacity=".2"
+          stopOpacity=".2"
           stroke="#ffffff"
-          stroke-width="15"
-          stroke-linecap="round"
+          strokeWidth="15"
+          strokeLinecap="round"
           cx="100"
           cy="100"
           r="70"

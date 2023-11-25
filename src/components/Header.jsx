@@ -35,13 +35,13 @@ const Header = () => {
                   href="#Home"
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
+                  eBooks
                 </a>
                 <a
                   href=""
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
+                  Careers
                 </a>
               </div>
             </li>
@@ -60,13 +60,13 @@ const Header = () => {
                   href=""
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
+                  Articles
                 </a>
                 <a
                   href=""
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
+                  News
                 </a>
               </div>
             </li>
@@ -85,19 +85,13 @@ const Header = () => {
                   href=""
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
+                  About Us
                 </a>
                 <a
                   href=""
                   className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
                 >
-                  More
-                </a>
-                <a
-                  href=""
-                  className="mb-0 ff-mainnormal fs_5md fw-normal text-white d-flex align-items-center justify-content-center"
-                >
-                  More
+                  Services
                 </a>
               </div>
             </li>

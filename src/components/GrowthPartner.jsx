@@ -25,7 +25,11 @@ const GrowthPartner = () => {
   return (
     <>
       <div className="position-relative">
-        <img src={Greenline} alt="Greenline" className="position-absolute start-0 bottom-0 w-100"/>
+        <img
+          src={Greenline}
+          alt="Greenline"
+          className="position-absolute start-0 bottom-0 w-100"
+        />
         <h2
           className="ff-SohneSchmalSchmal fw-bold fs_xxxl text-black text-center mb-0 text-uppercase mt-md-5 pt-5"
           data-aos="fade-down"
@@ -226,7 +230,7 @@ const GrowthPartner = () => {
                       <img
                         src={RedCrossLine}
                         alt="RedCrossLine"
-                        className="Red_line3 position-absolute"
+                        className="Red-line3 position-absolute"
                       />
                       <img src={Houzz} alt="Houzz" />
                     </div>
@@ -346,7 +350,7 @@ const GrowthPartner = () => {
                 src={ProjectVideo}
                 className="bg_growthvideo"
               />
-              <Row className="position-absolute z-2 top-0 start-0 end-0 justify-content-between">
+              <Row className="position-absolute z-2 top-0 start-0 end-0 justify-content-xl-between justify-content-center">
                 <Col xl={5} className="col-12">
                   <div className="d-flex flex-column justify-content-between">
                     <div className="mb-xl-5">
@@ -375,7 +379,7 @@ const GrowthPartner = () => {
                     </div>
                   </div>
                 </Col>
-                <Col sm={1} className="text-end my-auto d-none d-sm-block">
+                <Col sm={1} className="text-end my-auto d-none d-xl-block">
                   <img src={DotImg} alt="DotImg" />
                 </Col>
                 <Col

@@ -36,7 +36,7 @@ function App() {
     setScreenLoading(true);
     setTimeout(() => {
       setScreenLoading(false);
-    }, 5000);
+    }, 3000);
   }, []);
   // ----------------backToTop----------------
   const top = () => {

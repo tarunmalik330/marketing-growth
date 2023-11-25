@@ -68,8 +68,8 @@ const LearnFromUs = () => {
         </div>
       </Container>
       <Container fluid className="mt-5 pt-3">
-        <Row className="justify-content-center">
-          <Col xl={4} md={6} className="p-0">
+        <Row className="justify-content-center gap-md-0 gap-4">
+          <Col xl={4} md={6} className="p-0 col-10">
             <div className="bg_card pt_250 px-4 pb-4" data-aos="zoom-out-down">
               <div className="marketing_card1" data-aos="zoom-out-down">
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
@@ -90,9 +90,9 @@ const LearnFromUs = () => {
               </div>
             </div>
           </Col>
-          <Col xl={4} md={6} className="p-0 px-md-4">
+          <Col xl={4} md={6} className="col-10 p-0 px-md-4">
             <div
-              className="bg_card2 pt_250 px-4 pb-4 mt-4 mt-md-0"
+              className="bg_card2 pt_250 px-4 pb-4"
               data-aos="zoom-out-down"
             >
               <div className="marketing_card1" data-aos="zoom-out-down">
@@ -115,7 +115,7 @@ const LearnFromUs = () => {
               </div>
             </div>
           </Col>
-          <Col lg={4} md={8} className="p-0">
+          <Col xl={4} lg={6} md={8} className="p-0 col-10">
             <div
               className="bg_card3 pt_250 px-4 pb-4 mt-4 mt-xl-0"
               data-aos="zoom-out-down"

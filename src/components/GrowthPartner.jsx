@@ -187,7 +187,7 @@ const GrowthPartner = () => {
               </Col>
               <Col xl={2} className="overflow-x-scroll Card_scroll">
                 <div className="d-flex align-items-center justify-content-center gap-5 flex-xl-column">
-                  <div className="position-relative">
+                  <div className="position-relative p-2">
                     <img
                       src={RedCrossLine}
                       alt="RedCrossLine"
@@ -195,7 +195,7 @@ const GrowthPartner = () => {
                     />
                     <img src={HomeImg} alt="HomeImg" />
                   </div>
-                  <div className="position-relative">
+                  <div className="position-relative p-2">
                     <img
                       src={RedCrossLine}
                       alt="RedCrossLine"
@@ -203,7 +203,7 @@ const GrowthPartner = () => {
                     />
                     <img src={AIA} alt="AIA" />
                   </div>
-                  <div className="position-relative">
+                  <div className="position-relative p-2">
                     <img
                       src={RedCrossLine}
                       alt="RedCrossLine"
@@ -211,7 +211,7 @@ const GrowthPartner = () => {
                     />
                     <img src={Lowes} alt="Lowes" />
                   </div>
-                  <div className="position-relative">
+                  <div className="position-relative p-2">
                     <img
                       src={RedCrossLine}
                       alt="RedCrossLine"
@@ -219,7 +219,7 @@ const GrowthPartner = () => {
                     />
                     <img src={Risinger} alt="Risinger" />
                   </div>
-                  <div className="position-relative">
+                  <div className="position-relative p-2">
                     <img
                       src={RedCrossLine}
                       alt="RedCrossLine"

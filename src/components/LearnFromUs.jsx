@@ -70,10 +70,7 @@ const LearnFromUs = () => {
       <Container fluid className="mt-5 pt-3">
         <Row className="justify-content-center">
           <Col xl={4} md={6} className="p-0">
-            <div
-              className="bg_card p-4 d-flex justify-content-end align-items-end"
-              data-aos="zoom-out-down"
-            >
+            <div className="bg_card pt_250 px-4 pb-4" data-aos="zoom-out-down">
               <div className="marketing_card1" data-aos="zoom-out-down">
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
                   multi-channel marketing
@@ -81,9 +78,8 @@ const LearnFromUs = () => {
                 <p className="fs_lg ff-mainlight fw-light text-black mb-0 pb-3">
                   How to Get Your Product into Lowe’s
                 </p>
-                <p className="ff-mainnormal fw-normal fs_5md text-black mb-0 pb_45 mw_334 letter_spacing2">
-                  Explore how selling building materials online opens up wider
-                  audiences, efficient sales and insightful data,
+                <p className="ff-mainnormal fw-normal fs_5md text-black mb-0 pb_45 mw_334">
+                  Understanding the process and maximize the opportunities
                 </p>
                 <div className="d-flex align-items-center gap-2">
                   <p className="ff-maisonsemibold fw-semibold fs_5md mb-0 text-black">
@@ -96,19 +92,19 @@ const LearnFromUs = () => {
           </Col>
           <Col xl={4} md={6} className="p-0 px-md-4">
             <div
-              className="bg_card2 p-4 d-flex align-items-end justify-content-end mt-4 mt-md-0"
+              className="bg_card2 pt_250 px-4 pb-4 mt-4 mt-md-0"
               data-aos="zoom-out-down"
             >
-             <div className="marketing_card1" data-aos="zoom-out-down">
+              <div className="marketing_card1" data-aos="zoom-out-down">
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
-                  ecommerce
+                  lead-gen
                 </p>
                 <p className="fs_lg ff-mainlight fw-light text-black mb-0 pb-3">
-                  How to Sell building Materials Online
+                  Get Your Sales Team Ready for Digital Leads
                 </p>
                 <p className="ff-mainnormal fw-normal fs_5md text-black mb-0 pb_45 mw_334">
-                  Explore how selling building materials online opens up wider
-                  audiences, efficient sales and insightful data,
+                  unlock substantial business growth by enhancing collaboration
+                  skills and digital marketing expertise
                 </p>
                 <div className="d-flex align-items-center gap-2">
                   <p className="ff-maisonsemibold fw-semibold fs_5md mb-0 text-black">
@@ -119,9 +115,9 @@ const LearnFromUs = () => {
               </div>
             </div>
           </Col>
-          <Col lg={4} md={6} className="p-0">
+          <Col lg={4} md={8} className="p-0">
             <div
-              className="bg_card3 p-4 d-flex justify-content-end align-items-end mt-4 mt-xl-0"
+              className="bg_card3 pt_250 px-4 pb-4 mt-4 mt-xl-0"
               data-aos="zoom-out-down"
             >
               <div className="marketing_card1" data-aos="zoom-out-down">

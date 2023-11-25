@@ -117,7 +117,7 @@ function Footer() {
                   </li>
                 </ul>
               </Col>
-              <Col lg={3} className="col-6">
+              <Col lg={3} className="col-6 pt-5 pt-lg-0">
                 <ul className="list-unstyled m-0 p-0">
                   <li>
                     <a
@@ -169,7 +169,7 @@ function Footer() {
                   </li>
                 </ul>
               </Col>
-              <Col lg={3} className="col-6">
+              <Col lg={3} className="col-6 pt-5 pt-lg-0">
                 <ul className="list-unstyled">
                   <li>
                     <a
@@ -277,7 +277,8 @@ function Footer() {
                 </li>
                 <li className="position-relative ">
                   <a
-                    href="https://www.google.com/maps/place/100+N+Main+St+%23201,+Blacksburg,+VA+24060,+USA/@37.2295101,-80.4139482,17z/data=!3m1!4b1!4m6!3m5!1s0x884d9574c4a3c95b:0x57c47fc09b8eedc0!8m2!3d37.2295101!4d-80.4139482!16s%2Fg%2F11nssw2hr_?entry=ttu" target="blank"
+                    href="https://www.google.com/maps/place/100+N+Main+St+%23201,+Blacksburg,+VA+24060,+USA/@37.2295101,-80.4139482,17z/data=!3m1!4b1!4m6!3m5!1s0x884d9574c4a3c95b:0x57c47fc09b8eedc0!8m2!3d37.2295101!4d-80.4139482!16s%2Fg%2F11nssw2hr_?entry=ttu"
+                    target="blank"
                     className="fs_3md fw-normal ff-mainnormal text-white pt-4  d-inline-block cursor_pointer"
                   >
                     <span className="position-absolute footer_greenline">

@@ -4,14 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* list-style: none; */
   text-decoration: none !important;
 }
-
-/* body,
-html {
-  overflow-x: hidden;
-} */
 
 /* ------------------back-to-top------------------- */
 .back_to_top {
@@ -999,7 +993,6 @@ input::placeholder {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    /* top: 0; */
     width: 100%;
     height: 100%;
     z-index: 4;
@@ -1020,7 +1013,6 @@ input::placeholder {
   .menu-icon {
     padding-left: 30px;
     padding-right: 30px;
-    /* background: transparent; */
     background-color: white;
     position: relative;
     z-index: 6;
@@ -1033,7 +1025,6 @@ input::placeholder {
   }
 
   .menu-icon span {
-    /* width: 100%; */
     width: 30px;
     height: 3px;
     background: #000 !important;
@@ -1058,18 +1049,7 @@ input::placeholder {
   }
 
   :root {
-    --fs-6sm: 6px;
-    --fs-2md: 12px;
-    --fs-3md: 13px;
-    --fs-5md: 15px;
-    --fs-6md: 16px;
-    --fs-8md: 18px;
-    --fs-4lg: 24px;
     --fs_lg: 27px !important;
-    --fs-xl: 40px;
-    --fs-xxl: 50px;
-    --fs-xxxl: 80px;
-    --fs-4xl: 120px;
   }
 }
 
@@ -1105,14 +1085,6 @@ input::placeholder {
   }
 
   :root {
-    --fs-6sm: 6px;
-    --fs-2md: 12px;
-    --fs-3md: 13px;
-    --fs-5md: 15px;
-    --fs-6md: 16px;
-    --fs-8md: 18px;
-    --fs-4lg: 24px;
-    --fs_lg: 30px;
     --fs-xl: 31px !important;
     --fs-xxl: 35px !important;
     --fs-xxxl: 42px !important;

@@ -20,10 +20,7 @@ const Header = () => {
       <nav>
         <Container fluid className="d-flex justify-content-end p-0">
           <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
-            <li
-              className="curser_pointer position-relative"
-              onClick={() => setShow(!show)}
-            >
+            <li className="curser_pointer position-relative">
               <div className="ff-mainmedium fw-medium text-black fs_5md lh_106 text-nowrap ps-4">
                 How We Help{" "}
                 <span className="ff-mainmedium fw-medium text-black fs_6sm lh_106">
@@ -45,10 +42,7 @@ const Header = () => {
                 </a>
               </div>
             </li>
-            <li
-              className="curser_pointer position-relative"
-              onClick={() => setShow(!show)}
-            >
+            <li className="curser_pointer position-relative">
               <div className="ff-mainmedium fw-medium text-black fs_5md lh_106 text-nowrap ps-4">
                 Who We Help{" "}
                 <span className="ff-mainmedium fw-medium text-black fs_6sm lh_106">
@@ -70,10 +64,7 @@ const Header = () => {
                 </a>
               </div>
             </li>
-            <li
-              className="curser_pointer position-relative"
-              onClick={() => setShow(!show)}
-            >
+            <li className="curser_pointer position-relative">
               <div className="ff-mainmedium fw-medium text-black fs_5md lh_106 text-nowrap ps-4">
                 Why Venveo{" "}
                 <span className="ff-mainmedium fw-medium text-black fs_6sm lh_106">
@@ -95,10 +86,7 @@ const Header = () => {
                 </a>
               </div>
             </li>
-            <li
-              className="ff-mainmedium curser_pointer fw-medium text-black fs_5md lh_106 text-nowrap ps-lg-4 pe-lg-4 py-lg-0"
-              onClick={() => setShow(!show)}
-            >
+            <li className="ff-mainmedium curser_pointer fw-medium text-black fs_5md lh_106 text-nowrap ps-lg-4 pe-lg-4 py-lg-0">
               Resources
             </li>
           </ul>

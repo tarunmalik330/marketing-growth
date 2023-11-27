@@ -372,11 +372,6 @@ li:hover .dropdown-box {
 .bg_Yellow {
   background: #D2F038;
 }
-
-.mw_1440 {
-  max-width: 1440px;
-}
-
 .hoverAnimation {
   animation-duration: 2.2s;
   animation-name: bgAnimation;

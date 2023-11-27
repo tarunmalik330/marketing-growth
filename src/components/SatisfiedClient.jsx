@@ -35,14 +35,8 @@ const SatisfiedClient = () => {
           </span>{" "}
           satisfied clients.
         </h2>
-        <Row className="mw_1440 mx-auto justify-content-center">
-          <Col
-            xl={4}
-            lg={6}
-            md={6}
-            className="col-11 ps-0"
-            data-aos="fade-up-right"
-          >
+        <Row className="justify-content-center">
+          <Col xl={4} lg={6} md={6} className="col-11" data-aos="fade-up-right">
             <div className="bg_green digital_card h-100 d-flex flex-column justify-content-between position-relative overflow-hidden">
               <img
                 src={GreenCardImg}
@@ -90,7 +84,7 @@ const SatisfiedClient = () => {
             xl={4}
             lg={6}
             md={6}
-            className="pt-4 col-11 pt-md-0 col-10"
+            className="pt-4 pt-md-0 col-11"
             data-aos="fade-up-right"
           >
             <div className="bg_Lightgreen digital_card h-100 d-flex flex-column justify-content-between position-relative overflow-hidden">
@@ -140,7 +134,7 @@ const SatisfiedClient = () => {
             xl={4}
             lg={6}
             md={6}
-            className="col-11 pe-0 pt-xl-0 pt-4"
+            className="col-11 pt-lg-0 pt-4"
             data-aos="fade-up-right"
           >
             <div className="bg_Yellow digital_card h-100 d-flex flex-column justify-content-between position-relative overflow-hidden">

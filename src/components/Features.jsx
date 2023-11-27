@@ -60,22 +60,22 @@ const Features = () => {
         </h3>
         <div className="py-5 mb-sm-5 mb-0">
           <Slider {...settings}>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={WsjImg} alt="WsjImg" />
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={Enterpreneur} alt="Enterpreneur" />
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={Fortune} alt="Fortune" />
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={Forbase} alt="Forbase" />
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={IncImg} alt="IncImg" />
             </div>
-            <div className="d-flex align-items-center justify-content-center">
+            <div className="d-flex align-items-center justify-content-center curser_pointer">
               <img src={Fortune} alt="Fortune" />
             </div>
           </Slider>

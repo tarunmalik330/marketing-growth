@@ -311,7 +311,7 @@ function Footer() {
                 Privacy Policy
               </p>
             </div>
-            <div className="d-flex gap_34 pt-4">
+            <div className="d-flex justify-content-lg-end gap_34 pt-4">
               <div className="footericon position-relative">
                 <Facebook />
               </div>

@@ -663,7 +663,6 @@ input::placeholder {
   opacity: 0;
   left: -39%;
   bottom: 1px;
-  z-index: 15 !important;
   max-width: 142px;
 }
 
@@ -671,7 +670,6 @@ input::placeholder {
   opacity: 0;
   left: -12%;
   bottom: 15%;
-  z-index: 15 !important;
   max-width: 130px;
 }
 
@@ -679,7 +677,6 @@ input::placeholder {
   opacity: 0;
   left: 0;
   bottom: -14px;
-  z-index: 15 !important;
   max-width: 130px;
 }
 

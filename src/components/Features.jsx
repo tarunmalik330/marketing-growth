@@ -8,7 +8,7 @@ import Enterpreneur from "../assets/images/webp/EnterpreneurImg.webp";
 import Fortune from "../assets/images/webp/Farnsworth.webp";
 import Forbase from "../assets/images/webp/ForbesImg.webp";
 import IncImg from "../assets/images/webp/IncImg.webp";
-import DoubleGreenLine from "../assets/images/png/DoubleGreenLine.png";
+import DoubleGreenLine from "../assets/images/webp/DoubleGreenLine.webp";
 
 const Features = () => {
   const settings = {

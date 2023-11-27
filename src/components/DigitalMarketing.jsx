@@ -5,7 +5,7 @@ import { Rightarrow } from "./IconImg";
 import { Stair } from "./IconImg";
 import { Card3 } from "./IconImg";
 import { Card4 } from "./IconImg";
-import Greenline from "../assets/images/png/digital-greenline.png";
+import Greenline from "../assets/images/webp/digital-greenline.webp";
 
 function DigitalMarketing() {
   return (

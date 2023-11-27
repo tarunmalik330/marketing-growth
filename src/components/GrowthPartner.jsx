@@ -16,10 +16,10 @@ import { Cardarrow } from "./IconImg";
 import logoipsum from "../assets/images/webp/LogoIpsum.webp";
 import { ProjectBtn_arrow } from "./IconImg";
 import MapImg from "../assets/images/webp/MapImg.webp";
-import DotImg from "../assets/images/png/DotImg.png";
-import NavTabRedLine from "../assets/images/png/NavTabbRedLine.png";
-import RedCrossLine from "../assets/images/png/RedCross.png";
-import Greenline from "../assets/images/png/digital-greenline.png";
+import DotImg from "../assets/images/webp/DotImg.webp";
+import NavTabRedLine from "../assets/images/webp/NavTabbRedLine.webp";
+import RedCrossLine from "../assets/images/webp/RedCross.webp";
+import Greenline from "../assets/images/webp/digital-greenline.webp";
 
 const GrowthPartner = () => {
   return (

@@ -6,16 +6,17 @@ import Slider from "react-slick";
 import Blueshirtman from "../assets/images/webp/blue-shirt-man.webp";
 import MichaelETestomnial from "../assets/images/webp/MichaelETestomnial.webp";
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from "./IconImg";
-import GreenLine1 from "../assets/images/png/GreenLine1.png";
+import GreenLine1 from "../assets/images/webp/GreenLine1.webp";
 
 const Results = () => {
   const settings1 = {
     centerMode: true,
     centePadding: "300px",
     dots: true,
+    className: "box11",
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 1.67,
     slidesToScroll: 1,
     arrows: false,
     focusOnSelect: true,

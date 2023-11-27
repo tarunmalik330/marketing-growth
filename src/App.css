@@ -43,24 +43,20 @@
 }
 
 /* ----------------------------Scrollbar--------------------------- */
-/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #097980;
   border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #097980;
 }
@@ -551,10 +547,6 @@ input::placeholder {
   z-index: 1;
 }
 
-.word_wrap {
-  word-wrap: break-word;
-}
-
 .Subscribe_btn {
   padding: 31px 32px;
   background-color: #ff4242;
@@ -691,14 +683,8 @@ input::placeholder {
   max-width: 130px;
 }
 
-.Red_line:hover {
-  opacity: 1;
-}
-
-.Red_line2:hover {
-  opacity: 1;
-}
-
+.Red_line:hover,
+.Red_line2:hover,
 .Red-line3:hover {
   opacity: 1;
 }
@@ -752,7 +738,6 @@ input::placeholder {
 .max_w_640 {
   max-width: 640px;
 }
-
 
 /* --------------------------------Learn From Us------------------------------ */
 .marketing_card {
@@ -883,7 +868,7 @@ input::placeholder {
 }
 
 .bg_goals {
-  background-image: url('./assets//images/png/GoalsImg.png');
+  background-image: url('./assets//images/webp/GoalsImg.webp');
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -891,7 +876,7 @@ input::placeholder {
 
 /* /--------------------------------footer---------------------------/ */
 .footer_bg_img {
-  background-image: url('./assets/images/png/FooterBg.png');
+  background-image: url('./assets/images/webp/FooterBg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;

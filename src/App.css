@@ -112,7 +112,7 @@
 }
 
 .ff-mainnormal {
-  font-family: 'mainson-normal';
+  font-family: 'mainson-normal' !important;
 }
 
 @font-face {
@@ -214,7 +214,7 @@
 
 /* ----------------------------Herosection------------------------------ */
 .Hero_Img {
-  background-image: linear-gradient(0deg, #fff 10%, transparent 10%), url("./assets/images/png/HeroImg.png");
+  background-image: linear-gradient(0deg, #fff 10%, transparent 10%), url("./assets/images/webp/HeroImg.webp");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -622,7 +622,7 @@ input::placeholder {
   content: "";
   position: absolute;
   width: 100%;
-  background-image: url("./assets/images/png/backgroundofslider.png");
+  background-image: url("./assets/images/webp/backgroundofslider.webp");
   object-fit: cover;
   background-size: 100% 100%;
   background-position: center;
@@ -705,7 +705,7 @@ input::placeholder {
 
 /* ------------------------------ActualResult-------------------------------- */
 .bg-results {
-  background-image: url('./assets/images/png/bg-results.png');
+  background-image: url('./assets/images/webp/bg-results.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -730,10 +730,6 @@ input::placeholder {
   top: 32%;
 }
 
-.cur-pointer {
-  cursor: pointer;
-}
-
 .slick-dots li button::before {
   content: '' !important;
   background-color: rgba(255, 255, 255, 0.30) !important;
@@ -745,13 +741,12 @@ input::placeholder {
   background-color: white !important;
 }
 
-/* .slick-slide {
-  opacity: 0.5;
-  outline: none !important;
+/* .box11 {
+  opacity: 0.3 !important;
 }
 
-.slick-slide.slick-current {
-  opacity: 1;
+.slick-current .box11 {
+  opacity: 1 !important;
 } */
 
 .max_w_640 {
@@ -811,10 +806,6 @@ input::placeholder {
   background-color: white;
   border-radius: 25px;
   cursor: pointer;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   transition: 0.3s linear;
 }
 
@@ -831,27 +822,21 @@ input::placeholder {
 }
 
 .bg_card {
-  background-image: url('./assets/images/png/Marketing_Card1.png');
+  background-image: url('./assets/images/webp/Marketing_Card1.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
 }
 
 .bg_card2 {
-  background-image: url('./assets/images/png/Marketing_Card2.png');
+  background-image: url('./assets/images/webp/Marketing_Card2.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
 }
 
 .bg_card3 {
-  background-image: url('./assets/images/png/Marketing_Card3.png');
+  background-image: url('./assets/images/webp/Marketing_Card3.webp');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%
 }
 
 .pb_41 {
@@ -958,10 +943,6 @@ input::placeholder {
   margin-top: 84px;
 }
 
-.overflow_hidden {
-  overflow: hidden;
-}
-
 :root {
   --fs-6sm: 6px;
   --fs-2md: 12px;
@@ -1049,7 +1030,7 @@ input::placeholder {
   }
 
   :root {
-    --fs_lg: 27px !important;
+    --fs_lg: 23px !important;
   }
 }
 
@@ -1085,10 +1066,13 @@ input::placeholder {
   }
 
   :root {
-    --fs-xl: 31px !important;
+    --fs-5md: 14px !important;
+    --fs_lg: 22px !important;
+    --fs-4lg: 15px !important;
+    --fs-xl: 25px !important;
     --fs-xxl: 35px !important;
-    --fs-xxxl: 42px !important;
-    --fs-4xl: 70px !important;
+    --fs-xxxl: 38px !important;
+    --fs-4xl: 55px !important;
   }
 }
 

@@ -3,48 +3,26 @@ import { Container } from "react-bootstrap";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Blueshirtman from "../assets/images/png/blue-shirt-man.png";
-import MichaelETestomnial from "../assets/images/png/MichaelETestomnial.png";
+import Blueshirtman from "../assets/images/webp/blue-shirt-man.webp";
+import MichaelETestomnial from "../assets/images/webp/MichaelETestomnial.webp";
 import { Playbtn, Hpsvg, BtnSliderNext, BtnSliderpre } from "./IconImg";
 import GreenLine1 from "../assets/images/png/GreenLine1.png";
 
 const Results = () => {
   const settings1 = {
     centerMode: true,
-    centePadding: "60px",
+    centePadding: "300px",
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1.67,
+    slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    focusOnSelect: true,
+    cssEase: "linear",
     responsive: [
       {
-        breakpoint: 1200,
-        settings: {
-          centerMode: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 990,
-        settings: {
-          centerMode: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 770,
-        settings: {
-          centerMode: false,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 576,
+        breakpoint: 1000,
         settings: {
           centerMode: false,
           slidesToShow: 1,
@@ -84,7 +62,7 @@ const Results = () => {
           Businesses trust Venveo to power grow.
         </p>
         <Slider ref={slider1} {...settings1}>
-          <div>
+          <div className="box11 px-3">
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -106,7 +84,7 @@ const Results = () => {
               </div>
               <div className="d-flex align-items-center justify-content-center flex-column pt-3">
                 <p
-                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-sm-5 pt-4"
                   data-aos="fade-up"
                   data-aos-anchor-placement="center-bottom"
                 >
@@ -133,7 +111,7 @@ const Results = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="box11 px-3">
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -155,7 +133,7 @@ const Results = () => {
               </div>
               <div className="d-flex align-items-center justify-content-center flex-column pt-3">
                 <p
-                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-sm-5 pt-4"
                   data-aos="fade-up"
                   data-aos-anchor-placement="center-bottom"
                 >
@@ -182,7 +160,7 @@ const Results = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="box11 px-3">
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -204,7 +182,7 @@ const Results = () => {
               </div>
               <div className="d-flex align-items-center justify-content-center flex-column pt-3">
                 <p
-                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-5"
+                  className="mb-0 ff-mainlightt fw-light fs_lg text-black mw-640 text-white text-center pt-sm-5 pt-4"
                   data-aos="fade-up"
                   data-aos-anchor-placement="center-bottom"
                 >
@@ -235,13 +213,13 @@ const Results = () => {
       </Container>
       <div
         onClick={() => slider1?.current?.slickPrev()}
-        className="cur-pointer position-absolute btn-pre d-sm-block d-none"
+        className="curser_pointer  position-absolute btn-pre d-sm-block d-none"
       >
         <BtnSliderpre />
       </div>
       <div
         onClick={() => slider1?.current?.slickNext()}
-        className="cur-pointer position-absolute btn-next d-sm-block d-none"
+        className="curser_pointer  position-absolute btn-next d-sm-block d-none"
       >
         <BtnSliderNext />
       </div>

@@ -6,7 +6,7 @@ import { Btn_arrow } from "./IconImg";
 import { Greenline } from "./IconImg";
 import Video1 from "../assets/video/BusinessMetting.mp4";
 import { BrandCircle } from "./IconImg";
-import GreenLine1 from "../assets/images/png/GreenLine1.png";
+import GreenLine1 from "../assets/images/webp/GreenLine1.webp";
 
 const Header = () => {
   const [show, setShow] = useState(true);

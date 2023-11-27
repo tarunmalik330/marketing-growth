@@ -3,11 +3,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Container from "react-bootstrap/Container";
-import WsjImg from "../assets/images/png/WsjImg.png";
-import Enterpreneur from "../assets/images/png/EnterpreneurImg.png";
-import Fortune from "../assets/images/png/FortuneImg.png";
-import Forbase from "../assets/images/png/ForbesImg.png";
-import IncImg from "../assets/images/png/IncImg.png";
+import WsjImg from "../assets/images/webp/WsjImg.webp";
+import Enterpreneur from "../assets/images/webp/EnterpreneurImg.webp";
+import Fortune from "../assets/images/webp/Farnsworth.webp";
+import Forbase from "../assets/images/webp/ForbesImg.webp";
+import IncImg from "../assets/images/webp/IncImg.webp";
 import DoubleGreenLine from "../assets/images/png/DoubleGreenLine.png";
 
 const Features = () => {
@@ -58,7 +58,7 @@ const Features = () => {
         <h3 className="text-black text-center ff-mainnormal fs_5md letter_sapacing2">
           Featured in
         </h3>
-        <div className="py-5 mb-5">
+        <div className="py-5 mb-sm-5 mb-0">
           <Slider {...settings}>
             <div className="d-flex align-items-center justify-content-center">
               <img src={WsjImg} alt="WsjImg" />

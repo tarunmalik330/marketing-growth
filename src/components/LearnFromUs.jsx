@@ -3,13 +3,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Cardarrow } from "./IconImg";
-import EngineerMeeting from "../assets/images/png/EngineerMeeting.png";
-import BrandImg from "../assets/images/png/Beands.png";
+import EngineerMeeting from "../assets/images/webp/EngineerMeeting.webp";
+import BrandImg from "../assets/images/webp/Beands.webp";
 
 const LearnFromUs = () => {
   return (
     <div>
-      <Container fluid className="pt-5 mt-lg-5 px-5">
+      <Container fluid className="pt-5 mt-lg-5 px-sm-5 px-4">
         <h2
           className="fs_xxxl ff-SohneSchmalSchmal fw-bold text-black text-center text-uppercase mb-0 pb-3"
           data-aos="zoom-out-down"
@@ -70,8 +70,14 @@ const LearnFromUs = () => {
       <Container fluid className="mt-5 pt-3">
         <Row className="justify-content-center gap-md-0 gap-4">
           <Col xl={4} md={6} className="p-0 col-10">
-            <div className="bg_card pt_250 px-4 pb-4" data-aos="zoom-out-down">
-              <div className="marketing_card1" data-aos="zoom-out-down">
+            <div
+              className="bg_card pt_250 px-4 pb-4 w-100 h-100"
+              data-aos="zoom-out-down"
+            >
+              <div
+                className="marketing_card1 h-100 d-flex flex-column justify-content-between"
+                data-aos="zoom-out-down"
+              >
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
                   multi-channel marketing
                 </p>
@@ -92,10 +98,13 @@ const LearnFromUs = () => {
           </Col>
           <Col xl={4} md={6} className="col-10 p-0 px-md-4">
             <div
-              className="bg_card2 pt_250 px-4 pb-4"
+              className="bg_card2 pt_250 px-4 pb-4 w-100 h-100"
               data-aos="zoom-out-down"
             >
-              <div className="marketing_card1" data-aos="zoom-out-down">
+              <div
+                className="marketing_card1 h-100 d-flex flex-column justify-content-between"
+                data-aos="zoom-out-down"
+              >
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
                   lead-gen
                 </p>
@@ -117,10 +126,13 @@ const LearnFromUs = () => {
           </Col>
           <Col xl={4} lg={6} md={8} className="p-0 col-10">
             <div
-              className="bg_card3 pt_250 px-4 pb-4 mt-4 mt-xl-0"
+              className="bg_card3 pt_250 px-4 pb-4 mt-4 mt-xl-0 w-100 h-100"
               data-aos="zoom-out-down"
             >
-              <div className="marketing_card1" data-aos="zoom-out-down">
+              <div
+                className="marketing_card1 h-100 d-flex flex-column justify-content-between"
+                data-aos="zoom-out-down"
+              >
                 <p className="text_green fs_5md ff-maisonsemibold fw-semibold text-uppercase mb-0 pb-3">
                   ecommerce
                 </p>

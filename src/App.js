@@ -12,7 +12,7 @@ import DigitalMarketing from './components/DigitalMarketing';
 import Goals from './components/Goals';
 import Footer from './components/Footer';
 import ActualResults from './components/ActualResults';
-import BackToTop from './assets/images/png/BackToTop.png';
+import BackToTop from './assets/images/webp/BackToTop.webp';
 import { Loader } from './components/IconImg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

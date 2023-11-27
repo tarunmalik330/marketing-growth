@@ -37,12 +37,16 @@ function DigitalMarketing() {
             drive more revenue, more quickly, without cutting corners.
           </p>
         </div>
-        <Row className="pt-5 mt-lg-5 position-relative z-2">
+        <Row className="pt-5 mt-lg-5 position-relative justify-content-center z-2">
           <Col
+            xl={5}
             lg={6}
             className="col-12 d-flex align-items-center justify-content-lg-end justify-content-center pe-lg-4"
           >
-            <div className="digital-card" data-aos="zoom-in-right">
+            <div
+              className="digital-card h-100 d-flex flex-column justify-content-between"
+              data-aos="zoom-in-right"
+            >
               <div className="d-sm-flex gap-3 digitalcard">
                 <div className="mb-3">
                   <Fourdots />
@@ -77,6 +81,7 @@ function DigitalMarketing() {
             </div>
           </Col>
           <Col
+            xl={5}
             lg={6}
             className="col-12 d-flex align-items-center justify-content-lg-start justify-content-center pe-lg-4 pt-5 pt-lg-0"
           >
@@ -118,10 +123,14 @@ function DigitalMarketing() {
             </div>
           </Col>
           <Col
+            xl={5}
             lg={6}
             className="col-12 d-flex align-items-center justify-content-lg-end justify-content-center pe-lg-4 pt-5"
           >
-            <div className="digital-card" data-aos="zoom-in-right">
+            <div
+              className="digital-card h-100 d-flex flex-column justify-content-between"
+              data-aos="zoom-in-right"
+            >
               <div className="d-sm-flex gap-3 digitalcard">
                 <div className="mb-3">
                   <Card3 />
@@ -156,10 +165,14 @@ function DigitalMarketing() {
             </div>
           </Col>
           <Col
+            xl={5}
             lg={6}
             className="col-12 d-flex align-items-center justify-content-lg-start justify-content-center pe-lg-4 pt-5"
           >
-            <div className="digital-card" data-aos="zoom-in-left">
+            <div
+              className="digital-card h-100 d-flex flex-column justify-content-between"
+              data-aos="zoom-in-left"
+            >
               <div className="d-sm-flex gap-3 digitalcard">
                 <div className="mb-3">
                   <Card4 />

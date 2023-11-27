@@ -477,54 +477,60 @@ export const Loader = () => {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 200 200"
       >
-        <radialGradient
-          id="a6"
-          cx=".66"
-          fx=".66"
-          cy=".3125"
-          fy=".3125"
-          gradientTransform="scale(1.5)"
-        >
-          <stop offset="0" stopColor="#fff"></stop>
-          <stop offset=".3" stopColor="#fff" stopOpacity=".9"></stop>
-          <stop offset=".6" stopColor="#fff" stopOpacity=".6"></stop>
-          <stop offset=".8" stopColor="#fff" stopOpacity=".3"></stop>
-          <stop offset="1" stopColor="#fff" stopOpacity="0"></stop>
-        </radialGradient>
         <circle
-          transform-origin="center"
-          fill="none"
-          stroke="url(#a6)"
-          strokeWidth="15"
-          strokeLinecap="round"
-          strokeDasharray="200 1000"
-          strokeDashoffset="0"
-          cx="100"
+          fill="#ffffff"
+          stroke="#ffffff"
+          stroke-width="15"
+          r="15"
+          cx="40"
           cy="100"
-          r="70"
         >
-          <animateTransform
-            type="rotate"
-            attributeName="transform"
+          <animate
+            attributeName="opacity"
             calcMode="spline"
             dur="2"
-            values="360;0"
-            keyTimes="0;1"
-            keySplines="0 0 1 1"
+            values="1;0;1;"
+            keySplines=".5 0 .5 1;.5 0 .5 1"
             repeatCount="indefinite"
-          ></animateTransform>
+            begin="-.4"
+          ></animate>
         </circle>
         <circle
-          transform-origin="center"
-          fill="none"
-          stopOpacity=".2"
+          fill="#ffffff"
           stroke="#ffffff"
-          strokeWidth="15"
-          strokeLinecap="round"
+          stroke-width="15"
+          r="15"
           cx="100"
           cy="100"
-          r="70"
-        ></circle>
+        >
+          <animate
+            attributeName="opacity"
+            calcMode="spline"
+            dur="2"
+            values="1;0;1;"
+            keySplines=".5 0 .5 1;.5 0 .5 1"
+            repeatCount="indefinite"
+            begin="-.2"
+          ></animate>
+        </circle>
+        <circle
+          fill="#ffffff"
+          stroke="#ffffff"
+          stroke-width="15"
+          r="15"
+          cx="160"
+          cy="100"
+        >
+          <animate
+            attributeName="opacity"
+            calcMode="spline"
+            dur="2"
+            values="1;0;1;"
+            keySplines=".5 0 .5 1;.5 0 .5 1"
+            repeatCount="indefinite"
+            begin="0"
+          ></animate>
+        </circle>
       </svg>
     </div>
   );

@@ -226,7 +226,7 @@ function Footer() {
           </Col>
           <Col lg={4} className="col-12">
             <p className="m-0 fs_lg ff-mainlightt fw-light text-white text-nowrap pb-4 mb-3 ">
-              Get weekly data — insights.
+              Get weekly data — and insights.
             </p>
             <div className="analyze-email w-100 d-flex">
               <input
@@ -311,7 +311,7 @@ function Footer() {
                 Privacy Policy
               </p>
             </div>
-            <div className="d-flex justify-content-lg-end  gap_34 pt-4">
+            <div className="d-flex gap_34 pt-4">
               <div className="footericon position-relative">
                 <Facebook />
               </div>

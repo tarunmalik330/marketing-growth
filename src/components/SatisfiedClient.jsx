@@ -2,14 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import GreenCardImg from "../assets/images/png/GreenCardImg.png";
-import BgWorth from "../assets/images/png/BgWorth.png";
-import AmberBook from "../assets/images/png/AmberBook.png";
-import Fransworth from "../assets/images/png/Farnsworth.png";
-import Us from "../assets/images/png/UsImg.png";
+import GreenCardImg from "../assets/images/webp/GreenCardImg.webp";
+import BgWorth from "../assets/images/webp/BgWorth.webp";
+import AmberBook from "../assets/images/webp/AmberBook.webp";
+import Fransworth from "../assets/images/webp/Farnsworth.webp";
+import Us from "../assets/images/webp/UsImg.webp";
 import { CardArrow } from "./IconImg";
 import RedLine from "../assets/images/png/RedLine.png";
-import BgYellow from "../assets/images/png/BgYellow.png";
+import BgYellow from "../assets/images/webp/BgYellow.webp";
 
 const SatisfiedClient = () => {
   return (
@@ -22,7 +22,7 @@ const SatisfiedClient = () => {
           Driving digital revenue for over
         </p>
         <h2
-          className=" text-black text-center ff-SohneSchmalSchmal fw-bold text-uppercase fs_xxxl lh_87 mb-0 pb-5 mb-4"
+          className="text-black text-center ff-SohneSchmalSchmal fw-bold text-uppercase fs_xxxl lh_87 mb-0 pb-5 mb-sm-4 mb-0"
           data-aos="zoom-in"
         >
           <span className="position-relative">
@@ -36,7 +36,13 @@ const SatisfiedClient = () => {
           satisfied clients.
         </h2>
         <Row className="mw_1440 mx-auto justify-content-center">
-          <Col xl={4} lg={6} className="col-10 ps-0" data-aos="fade-up-right">
+          <Col
+            xl={4}
+            lg={6}
+            md={6}
+            className="col-11 ps-0"
+            data-aos="fade-up-right"
+          >
             <div className="bg_green digital_card position-relative overflow-hidden">
               <img
                 src={GreenCardImg}
@@ -48,7 +54,7 @@ const SatisfiedClient = () => {
                 <p className="text-black ff-mainlight fw-light fs_lg mb-0 pb-3">
                   Driving digital revenue for over 1,000+ satisfied clients.
                 </p>
-                <p className="ff-mainnormal fw-normal fs_5md text-black pb-5 mb-3 mb-0">
+                <p className="ff-mainnormal fw-normal fs_5md text-black pb-sm-5 pb-0 mb-3 mb-0">
                   Elevate your business with our top-tier services and tech
                 </p>
                 <div className="d-flex align-items-center gap-2 pb-4">
@@ -83,7 +89,8 @@ const SatisfiedClient = () => {
           <Col
             xl={4}
             lg={6}
-            className="py-4 py-lg-0 col-10"
+            md={6}
+            className="py-4 col-11 py-lg-0 col-10"
             data-aos="fade-up-right"
           >
             <div className="bg_Lightgreen digital_card position-relative overflow-hidden">
@@ -97,7 +104,7 @@ const SatisfiedClient = () => {
                 <p className="text-black ff-mainlight fw-light fs_lg mb-0 pb-3">
                   Driving digital revenue for over 1,000+ satisfied clients.
                 </p>
-                <p className="ff-mainnormal fw-normal fs_5md text-black pb-5 mb-3 mb-0">
+                <p className="ff-mainnormal fw-normal fs_5md text-black pb-sm-5 pb-0 mb-3 mb-0">
                   Elevate your business with our top-tier services and tech
                 </p>
                 <div className="d-flex align-items-center gap-2 pb-4">
@@ -132,7 +139,8 @@ const SatisfiedClient = () => {
           <Col
             xl={4}
             lg={6}
-            className="col-10 pe-0 pt-xl-0 pt-4"
+            md={6}
+            className="col-11 pe-0 pt-xl-0 pt-4"
             data-aos="fade-up-right"
           >
             <div className="bg_Yellow digital_card position-relative overflow-hidden">
@@ -146,7 +154,7 @@ const SatisfiedClient = () => {
                 <p className="text-black ff-mainlight fw-light fs_lg mb-0 pb-3">
                   Driving digital revenue for over 1,000+ satisfied clients.
                 </p>
-                <p className="ff-mainnormal fw-normal fs_5md text-black pb-5 mb-3 mb-0">
+                <p className="ff-mainnormal fw-normal fs_5md text-black pb-sm-5 pb-0 mb-3 mb-0">
                   Elevate your business with our top-tier services and tech
                 </p>
                 <div className="d-flex align-items-center gap-2 pb-4">

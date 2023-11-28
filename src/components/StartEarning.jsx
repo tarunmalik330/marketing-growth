@@ -21,7 +21,7 @@ const StartEarning = () => {
           <div className="position-relative z-3 py-5 my-2 d-xl-flex justify-content-xl-between justify-content-center align-items-center">
             <div className="max_w_1024 mx-auto">
               <h6
-                className="ff-SpaceMono  fw-semibold lh_normal fs_5md text-black pt-2 mb-2 text-xl-start text-center"
+                className="ff-SpaceMono fw-normal fw-semibold fs_5md text-black pt-2 mb-2 text-xl-start text-center"
                 data-aos="zoom-out-right"
               >
                 Get Your Custom Marketing Plan
@@ -40,13 +40,13 @@ const StartEarning = () => {
               <img
                 src={EarnArrow}
                 alt="EarnArrow"
-                className="position-absolute w-100 max_w_135 arrow"
+                className="position-absolute w-100 mw_135 email_arrow"
               />
               <div className="d-flex align-items-center">
                 <input
                   type="text"
                   placeholder="Enter your email"
-                  className="submit_input w-100 ff_poppins fw_400 fs_20 py-3"
+                  className="submit_input w-100 ff-mainnormal fw_400 fs_20 py-3"
                 />
               </div>
               <a

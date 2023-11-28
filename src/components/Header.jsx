@@ -89,6 +89,13 @@ const Header = () => {
             <li className="ff-mainmedium curser_pointer fw-medium text-black fs_5md lh_106 text-nowrap ps-lg-4 pe-lg-4 py-lg-0">
               Resources
             </li>
+            <li className="curser_pointer bg-white d-flex align-items-center justify-content-center px-1">
+              <Search />
+            </li>
+            <li className="bg_lightgreen h_100 curser_pointer px-4 py-3 ff-mainsonsemibold fw-semibold fs_5md text-black d-flex align-items-center text-nowrap px-5">
+              Let’s Talk
+              <Btn_arrow />
+            </li>
           </ul>
           <div
             onClick={() => setShow(!show)}
@@ -97,25 +104,6 @@ const Header = () => {
             <span className="crl-1"></span>
             <span className="crl-2"></span>
             <span className="crl-3"></span>
-          </div>
-          <div
-            className={`${
-              show
-                ? "curser_pointer bg-white d-flex align-items-center justify-content-center px-1"
-                : "d-none"
-            }`}
-          >
-            <Search />
-          </div>
-          <div
-            className={`${
-              show
-                ? "bg_lightgreen curser_pointer px-4 py-3 ff-mainsonsemibold fw-semibold fs_5md text-black d-flex align-items-center text-nowrap px-5"
-                : "d-none"
-            }`}
-          >
-            Let’s Talk
-            <Btn_arrow />
           </div>
         </Container>
       </nav>

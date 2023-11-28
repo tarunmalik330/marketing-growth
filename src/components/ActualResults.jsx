@@ -13,7 +13,6 @@ const Results = () => {
     centerMode: true,
     centePadding: "300px",
     dots: true,
-    className: "box11",
     infinite: true,
     speed: 500,
     slidesToShow: 1.67,
@@ -63,7 +62,7 @@ const Results = () => {
           Businesses trust Venveo to power grow.
         </p>
         <Slider ref={slider1} {...settings1}>
-          <div className="box11 px-3">
+          <div>
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -73,7 +72,7 @@ const Results = () => {
                 <img
                   src={MichaelETestomnial}
                   alt="MichaelETestomnial"
-                  className="w-100 max_w_640"
+                  className="w-100 mw_640"
                 />
                 <div
                   className="position-absolute bottom-0 end-0 p-3"
@@ -112,7 +111,7 @@ const Results = () => {
               </div>
             </div>
           </div>
-          <div className="box11 px-3">
+          <div>
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -122,7 +121,7 @@ const Results = () => {
                 <img
                   src={Blueshirtman}
                   alt="MichaelETestomnial"
-                  className="w-100 max_w_640"
+                  className="w-100 mw_640"
                 />
                 <div
                   className="position-absolute bottom-0 end-0 p-3"
@@ -161,7 +160,7 @@ const Results = () => {
               </div>
             </div>
           </div>
-          <div className="box11 px-3">
+          <div>
             <div className="d-flex align-items-center justify-content-center flex-column">
               <div
                 className="position-relative"
@@ -171,7 +170,7 @@ const Results = () => {
                 <img
                   src={MichaelETestomnial}
                   alt="MichaelETestomnial"
-                  className="w-100 max_w_640"
+                  className="w-100 mw_640"
                 />
                 <div
                   className="position-absolute bottom-0 end-0 p-3"
